@@ -1,6 +1,6 @@
-# jongseo-blog
+# Project
 
-개인 블로그 만들기 프로젝트
+My personal blog
 
-# 기술 스택
+## Using Stack
 MERN (MongoDB, Express, ReactJS, NodeJS)
