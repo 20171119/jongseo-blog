@@ -1,8 +1,19 @@
-const express = require("express");
-const app = express();
-const path = require("path");
-const cors = require('cors')
+// const express = require("express");
+// const app = express();
+// const path = require("path");
+// const cors = require('cors')
+import * as express from "express"
+import path from 'path';
+import cors from 'cors';
 
+class App {
+  public application : express.Application;
+  constructor(){
+    this.application = express();
+  }
+}
+
+const app = new App().application;
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
