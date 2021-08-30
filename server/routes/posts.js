@@ -66,10 +66,10 @@ router.post("/getPosts", (req, res) => {
 
 });
 
-router.post("/post_by_id", (req, res) => {
-    console.log('post_by_id')
-    let postId = req.body.postId
-    // console.log(postId)
+router.get("/:postId", (req, res) => {
+    console.log('post_detail')
+    let postId = req.params.postId
+    
     //we need to find the product information that belong to product Id 
     Post.findOne({"_id": postId})
         .populate('writer')
