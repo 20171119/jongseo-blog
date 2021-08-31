@@ -9,14 +9,16 @@
 }
 
 .menu__logo {
-  width: 150px;
+  margin-left: 200px;
+  width: 300px;
+  padding: 20px 19px;
   float: left;
 }
 
 .menu__logo a {
   display: inline-block;
-  font-size: 20px;
-  padding: 19px 20px;
+  padding-bottom: 10px;
+  font-size: 40px;
 }
 
 .menu__container .ant-menu-item {
