@@ -34,7 +34,7 @@ function RightMenu(props) {
     return (
       <Menu mode={props.mode}>
         <Menu.Item key="upload">
-          <a href="/posts/upload" style={{textSize}}>Upload</a>
+          <a href="/posts/upload">Upload</a>
         </Menu.Item>
         <Menu.Item key="logout">
           <a onClick={logoutHandler}>Logout</a>

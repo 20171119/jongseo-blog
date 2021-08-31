@@ -17,6 +17,9 @@ const postSchema = mongoose.Schema({
         type: Array,
         default: []
     },
+    category: {
+        type: String
+    },
     views: {
         type: Number,
         default: 0
